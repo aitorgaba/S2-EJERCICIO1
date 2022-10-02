@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    border-bottom: 5px solid grey;
+    padding: 10px;
+}
+.logo{
+    width: 200px;
+    margin-left: 30px;
+}
+.sign-in{
+    position: absolute;
+    right: 10px;
+}
+.main{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.sign{
+    margin: 20px;
+    margin-left: 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.sign__ggl, .sign__fb{
+    width: 190px;
+    background-color:deepskyblue;
+    border-radius: 5px;
+    padding: 2px;
+}
+.sign__ggl_img, .sign__fb_img{
+    width: 25px;
+}
+.fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.fieldset input{
+    width: 450px;
+}
+.email, .password, p{
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 3px;
+}
+.condiciones{
+    display: flex;
+    flex-direction: column;
+}
+.create-account{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: dashed;
+    text-transform: uppercase;
+    background-color: white;
+    color: darkgray;
+    border-color: darkgrey;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 5px solid grey;
+    padding: 10px;
+}
+.footer p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}

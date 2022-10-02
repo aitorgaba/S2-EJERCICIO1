@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="logo-issuu" class="logo">
+        <section class="sign-in">
+            <p>Already a user?</p>
+            <a href="#">Sign in</a>
+        </section>
+    </header>
+
+    <main class="main">
+        <h1>Create an Issu Acount</h1>
+        <section class="sign">
+            
+            <div class="sign__ggl">
+                <a href="#" class="link-ggl">
+                    <img src="./images/google.png" alt="logo-google" class="sign__ggl_img">
+                    Sign in with Google
+                </a>
+            </div>
+            <div class="sign__fb">
+                <a href="#">
+                    <img src="./images/fb.png" alt="logo-google" class="sign__fb_img">
+                    Continue with Facebook
+                </a>
+            </div>
+        </section>
+
+        <p>or with email</p>
+
+        <form action="formulario">
+            <fieldset class="fieldset">
+                <label for="email">Email</label>
+                <input type="text" placeholder="e.g john.doe@email.com" class="email">
+                <label for="password">Password</label>
+                <input type="password" class="password">
+            </fieldset>
+
+            <div class="condiciones">
+                <label for=""><input type="checkbox" class="checkbox"> I accept the Terms of Service and the Profesional Terms of Service</label>
+                
+                <input type="submit" value="create account" class="create-account">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Issu Inc.</p>
+        <nav class="nav">
+            <a href="">Terms</a>
+            <a href="">Privacy</a>
+            <a href="">DMCA</a>
+        </nav>
+    </footer>
+</body>
+</html>
